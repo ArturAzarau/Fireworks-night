@@ -9,25 +9,37 @@
 /* Begin PBXBuildFile section */
 		7260FEBB211C3A4C00AE6EB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7260FEBA211C3A4C00AE6EB7 /* AppDelegate.swift */; };
 		7260FEBD211C3A4D00AE6EB7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7260FEBC211C3A4D00AE6EB7 /* GameScene.sks */; };
-		7260FEBF211C3A4D00AE6EB7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7260FEBE211C3A4D00AE6EB7 /* Actions.sks */; };
 		7260FEC1211C3A4D00AE6EB7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7260FEC0211C3A4D00AE6EB7 /* GameScene.swift */; };
 		7260FEC3211C3A4D00AE6EB7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7260FEC2211C3A4D00AE6EB7 /* GameViewController.swift */; };
 		7260FEC6211C3A4D00AE6EB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7260FEC4211C3A4D00AE6EB7 /* Main.storyboard */; };
 		7260FEC8211C3A4D00AE6EB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7260FEC7211C3A4D00AE6EB7 /* Assets.xcassets */; };
 		7260FECB211C3A4D00AE6EB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7260FEC9211C3A4D00AE6EB7 /* LaunchScreen.storyboard */; };
+		7260FEDA211C3B4E00AE6EB7 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED3211C3B4E00AE6EB7 /* spark.png */; };
+		7260FEDB211C3B4E00AE6EB7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED4211C3B4E00AE6EB7 /* background.png */; };
+		7260FEDC211C3B4E00AE6EB7 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED5211C3B4E00AE6EB7 /* rocket.png */; };
+		7260FEDD211C3B4E00AE6EB7 /* fuse.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED6211C3B4E00AE6EB7 /* fuse.sks */; };
+		7260FEDE211C3B4E00AE6EB7 /* explode.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED7211C3B4E00AE6EB7 /* explode.sks */; };
+		7260FEDF211C3B4E00AE6EB7 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED8211C3B4E00AE6EB7 /* background@2x.png */; };
+		7260FEE0211C3B4E00AE6EB7 /* rocket@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7260FED9211C3B4E00AE6EB7 /* rocket@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7260FEB7211C3A4C00AE6EB7 /* Fireworks night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fireworks night.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7260FEBA211C3A4C00AE6EB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7260FEBC211C3A4D00AE6EB7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		7260FEBE211C3A4D00AE6EB7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		7260FEC0211C3A4D00AE6EB7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		7260FEC2211C3A4D00AE6EB7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		7260FEC5211C3A4D00AE6EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7260FEC7211C3A4D00AE6EB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7260FECA211C3A4D00AE6EB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7260FECC211C3A4D00AE6EB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7260FED3211C3B4E00AE6EB7 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		7260FED4211C3B4E00AE6EB7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7260FED5211C3B4E00AE6EB7 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		7260FED6211C3B4E00AE6EB7 /* fuse.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fuse.sks; sourceTree = "<group>"; };
+		7260FED7211C3B4E00AE6EB7 /* explode.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = explode.sks; sourceTree = "<group>"; };
+		7260FED8211C3B4E00AE6EB7 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		7260FED9211C3B4E00AE6EB7 /* rocket@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rocket@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +74,29 @@
 			children = (
 				7260FEBA211C3A4C00AE6EB7 /* AppDelegate.swift */,
 				7260FEBC211C3A4D00AE6EB7 /* GameScene.sks */,
-				7260FEBE211C3A4D00AE6EB7 /* Actions.sks */,
 				7260FEC0211C3A4D00AE6EB7 /* GameScene.swift */,
 				7260FEC2211C3A4D00AE6EB7 /* GameViewController.swift */,
 				7260FEC4211C3A4D00AE6EB7 /* Main.storyboard */,
+				7260FED2211C3B4E00AE6EB7 /* Content */,
 				7260FEC7211C3A4D00AE6EB7 /* Assets.xcassets */,
 				7260FEC9211C3A4D00AE6EB7 /* LaunchScreen.storyboard */,
 				7260FECC211C3A4D00AE6EB7 /* Info.plist */,
 			);
 			path = "Fireworks night";
+			sourceTree = "<group>";
+		};
+		7260FED2211C3B4E00AE6EB7 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				7260FED3211C3B4E00AE6EB7 /* spark.png */,
+				7260FED4211C3B4E00AE6EB7 /* background.png */,
+				7260FED5211C3B4E00AE6EB7 /* rocket.png */,
+				7260FED6211C3B4E00AE6EB7 /* fuse.sks */,
+				7260FED7211C3B4E00AE6EB7 /* explode.sks */,
+				7260FED8211C3B4E00AE6EB7 /* background@2x.png */,
+				7260FED9211C3B4E00AE6EB7 /* rocket@2x.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,11 +157,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7260FEE0211C3B4E00AE6EB7 /* rocket@2x.png in Resources */,
+				7260FEDC211C3B4E00AE6EB7 /* rocket.png in Resources */,
+				7260FEDA211C3B4E00AE6EB7 /* spark.png in Resources */,
+				7260FEDD211C3B4E00AE6EB7 /* fuse.sks in Resources */,
+				7260FEDB211C3B4E00AE6EB7 /* background.png in Resources */,
 				7260FEC6211C3A4D00AE6EB7 /* Main.storyboard in Resources */,
+				7260FEDE211C3B4E00AE6EB7 /* explode.sks in Resources */,
 				7260FEBD211C3A4D00AE6EB7 /* GameScene.sks in Resources */,
 				7260FEC8211C3A4D00AE6EB7 /* Assets.xcassets in Resources */,
+				7260FEDF211C3B4E00AE6EB7 /* background@2x.png in Resources */,
 				7260FECB211C3A4D00AE6EB7 /* LaunchScreen.storyboard in Resources */,
-				7260FEBF211C3A4D00AE6EB7 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +326,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Fireworks night/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arturazarau.Fireworks-night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -311,6 +344,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Fireworks night/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.arturazarau.Fireworks-night";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
