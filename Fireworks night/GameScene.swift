@@ -34,8 +34,8 @@ final class GameScene: SKScene {
     
     // Launching offsets
     private let leftEdge = -22
-    private let rightEdge = -22
-    private let bottomEdge = 1024 + 22
+    private let bottomEdge = -22
+    private let rightEdge = 1024 + 22
     
     // MARK: - Scene life cycle
     
@@ -65,9 +65,45 @@ final class GameScene: SKScene {
         gameTimer = Timer.scheduledTimer(timeInterval: 6, target: self, selector: #selector(launchFireworks), userInfo: nil, repeats: true)
     }
     
-    // Lauch fireworks
+    // Launch fireworks
     @objc private func launchFireworks() {
+        let movementAmount: CGFloat = 1800
         
+        switch GKRandomSource.sharedRandom().nextInt(upperBound: 4) {
+        case 0:
+            // fire five, straight up
+            createFirework(xMovement: 0, x: 512, y: bottomEdge)
+            createFirework(xMovement: 0, x: 512 - 200, y: bottomEdge)
+            createFirework(xMovement: 0, x: 512 - 100, y: bottomEdge)
+            createFirework(xMovement: 0, x: 512 + 100, y: bottomEdge)
+            createFirework(xMovement: 0, x: 512 + 200, y: bottomEdge)
+            
+        case 1:
+            // fire five, in a fan
+            createFirework(xMovement: 0, x: 512, y: bottomEdge)
+            createFirework(xMovement: -200, x: 512 - 200, y: bottomEdge)
+            createFirework(xMovement: -100, x: 512 - 100, y: bottomEdge)
+            createFirework(xMovement: 100, x: 512 + 100, y: bottomEdge)
+            createFirework(xMovement: 200, x: 512 + 200, y: bottomEdge)
+            
+        case 2:
+            // fire five, from the left to the right
+            createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge + 400)
+            createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge + 300)
+            createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge + 200)
+            createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge + 100)
+            createFirework(xMovement: movementAmount, x: leftEdge, y: bottomEdge)
+            
+        case 3:
+            // fire five, from the right to the left
+            createFirework(xMovement: -movementAmount, x: rightEdge, y: bottomEdge + 400)
+            createFirework(xMovement: -movementAmount, x: rightEdge, y: bottomEdge + 300)
+            createFirework(xMovement: -movementAmount, x: rightEdge, y: bottomEdge + 200)
+            createFirework(xMovement: -movementAmount, x: rightEdge, y: bottomEdge + 100)
+            createFirework(xMovement: -movementAmount, x: rightEdge, y: bottomEdge)
+        default:
+            break
+        }
     }
     
     // Create fireworks
